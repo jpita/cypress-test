@@ -28,6 +28,9 @@ This project is using GitHub Actions for CI. The workflow is defined in `.github
 
 The tests are failing on purpose since adding a new computer is not working as expected. The test is failing because the computer is not being added to the list.
 
+You can download the artifacts (videos and screenshots) of the tests in the Actions tab of the repository inside each build.
+![artifacts screenshot](artifacts.png?raw=true)
+
 ## Test Cases to be added
 
 - check pagination

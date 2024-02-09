@@ -31,7 +31,13 @@ The tests are failing on purpose since adding a new computer is not working as e
 You can download the artifacts (videos and screenshots) of the tests in the Actions tab of the repository inside each build.
 ![artifacts screenshot](artifacts.png?raw=true)
 
-## Test Cases to be added
+## Improvements
+
+### Page Object Model
+
+I would add page object model to the tests to make them more readable and maintainable. This would allow us to separate the selectors and the actions on the page.
+
+### Test Cases to be added
 
 - check pagination
 - open details page

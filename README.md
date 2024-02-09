@@ -25,3 +25,5 @@ To see the tests running, open cypress with `npx cypress open` and click on the 
 ## CI
 
 This project is using GitHub Actions for CI. The workflow is defined in `.github/workflows/main.yml` and it runs the tests on every push to the repository.
+
+The tests are failing on purpose since adding a new computer is not working as expected. The test is failing because the computer is not being added to the list.

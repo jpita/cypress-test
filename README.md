@@ -47,6 +47,6 @@ I would add page object model to the tests to make them more readable and mainta
 
 ## Bugs found
 
-- every post call to `/computers` gives a 303 status code on changes, so no calls work when we try to make changes to the data in the app
+- every post call to `/computers` gives a 303 status code on changes to the information (create, edit, delete), so no calls work when we try to make changes to the data in the app
 - when I try to add a new computer with an invalid date I get this UI error
   ![error screenshot](UI-errors.png?raw=true)

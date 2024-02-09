@@ -1,0 +1,17 @@
+{
+  "name": "hostfully",
+  "version": "1.0.0",
+  "description": "cypress test for Hostfully",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "gabriel pita",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

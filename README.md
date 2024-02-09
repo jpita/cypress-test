@@ -27,3 +27,18 @@ To see the tests running, open cypress with `npx cypress open` and click on the 
 This project is using GitHub Actions for CI. The workflow is defined in `.github/workflows/main.yml` and it runs the tests on every push to the repository.
 
 The tests are failing on purpose since adding a new computer is not working as expected. The test is failing because the computer is not being added to the list.
+
+## Test Cases to be added
+
+- check pagination
+- open details page
+- edit and save changes to computer
+- edit and discard changes to computer
+- delete computer
+
+## Bugs found
+
+- every post call to `/computers` gives a 303 status code on changes, so no calls work when we try to make changes to the data in the app
+- when I try to add a new computer with an invalid date I get this UI error
+  ![error screenshot](https://github.com/jpita/cypress-test/blob/main/UI-errors.png?raw=true)
+  ![error screenshot](UI-errors.png?raw=true)

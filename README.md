@@ -50,3 +50,14 @@ I would add page object model to the tests to make them more readable and mainta
 - every post call to `/computers` gives a 303 status code on changes to the information (create, edit, delete), so no calls work when we try to make changes to the data in the app
 - when I try to add a new computer with an invalid date I get this UI error
   ![error screenshot](UI-errors.png?raw=true)
+
+## Thoughts
+
+This was a fun exercise to do since I love working with Cypress.
+
+Instead of spending more time improve the test code (adding POM), I decided to make it simple but effective and focus on the CI part.
+Both ways are valid, but I think that the CI part is more important for this exercise to show case how a project should be setup to run tests on every push to the repository.
+
+When I join a team of QAs to build a test suite, I always start with the CI part to make sure that the tests are running on every push to the repository. This way we can catch bugs early and make sure that the tests are always running.
+
+Next I would spend time improving the test code and adding more test cases to cover the whole application and training the other QAs to write tests and good test code.
